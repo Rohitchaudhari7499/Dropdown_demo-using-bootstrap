@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html data-bs-theme="dark">
+    <head>
+        <meta name="author" content="Rohit Chaudhari">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="../Bootstrap_Lib/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/css/bootstrap.min.css"rel="stylesheet" >
+        <title> BS5 Dropdown</title>
+    </head>
+    <body>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+        <div class="dropdown p-4 m-3">
+            <button class="dropdown-toggle btn btn-success" type="button" data-bs-toggle="dropdown" aria-expanded="false"> Electronic</button>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Mobile</a></li>
+                <li><a class="dropdown-item" href="#">Laptop</a></li>
+                <li><a class="dropdown-item" href="#">Television</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Home Theater</a></li>
+            </ul>
+        </div>
+        <div class="btn-group m-3 p-4">
+           <button type="button" class="btn btn-primary">Sports</button>
+           <button type="button" class="btn btn-info dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+           <span class="visually-hidden">Sports Button</span>
+           </button>
+           <ul class="dropdown-menu">
+            <li class="dropdown-item" href="#" ><a>Cricket</a></li>
+            <li class="dropdown-item" href="#" ><a>Hocky</a></li>
+            <li class="dropdown-item" href="#" ><a>Fotboll</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li class="dropdown-item" href="#" ><a>Chess</a></li>
+            <li class="dropdown-item" href="#" ><a>Carrom</a></li>
+           </ul>
+        </div>
+        <div class="dropdown-center p-4 m-3">
+            <button class="dropdown-toggle btn btn-warning" type="button" data-bs-toggle="dropdown" aria-expanded="false">Furniture</button>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Sofa</a></li>
+                <li><a class="dropdown-item" href="#">Bed</a></li>
+                <li><a class="dropdown-item" href="#">Cullar</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Chair</a></li>
+            </ul>
+        </div>
+        <div class="dropup p-4 m-3">
+            <button class="dropdown-toggle btn btn-danger" type="button" data-bs-toggle="dropdown" aria-expanded="false">Tours</button>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">4 Day 3 Night</a></li>
+                <li><a class="dropdown-item" href="#">5 Day 4 Night</a></li>
+                <li><a class="dropdown-item" href="#">6 Day 5 Night</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">6 Day 7 Night</a></li>
+            </ul>
+        </div>
+        <div class=" dropup-center dropup p-4 m-3">
+            <button class="dropdown-toggle btn btn-info" type="button" data-bs-toggle="dropdown" aria-expanded="false">Four Wheeler</button>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Tata</a></li>
+                <li><a class="dropdown-item" href="#">MG Hekter</a></li>
+                <li><a class="dropdown-item" href="#">Nissan</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">BMW</a></li>
+            </ul>
+        </div>
+        <div class=" btn-group dropend p-4 m-3">
+            <button class="dropdown-toggle btn btn-info" type="button" data-bs-toggle="dropdown" aria-expanded="false">Two Wheeler</button>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">KTM</a></li>
+                <li><a class="dropdown-item" href="#">Hero</a></li>
+                <li><a class="dropdown-item" href="#">Bajaj</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">BMW</a></li>
+            </ul>
+        </div>
+        <div class=" btn-group dropstart p-4 m-3">
+            <button class="dropdown-toggle btn btn-secondary" type="button" data-bs-toggle="dropdown" aria-expanded="false">Food Menu</button>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Dossa</a></li>
+                <li><a class="dropdown-item" href="#">Idali</a></li>
+                <li><a class="dropdown-item" href="#">Chilichana</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Samosa</a></li>
+            </ul>
+        </div>
+    </body>
+</html>
